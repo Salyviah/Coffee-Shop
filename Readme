@@ -1,0 +1,66 @@
+# (Coffee-shop)
+
+#### Date, 2023/09/11
+
+#### salyviah Kamau
+
+## Description
+
+#### Customer
+
+- Customer __init__(self, name)
+  - Customer is initialized with a name
+- Customer property name
+  - Returns customer's name
+  - Names must be of type str
+  - Names must be between 1 and 15 characters, inclusive
+  - Should *be able* to change after the customer is instantiated
+
+#### Coffee
+
+- Coffee __init__(self, name)
+  - Coffee is initialized with a name
+- Coffee property name
+  - Returns the coffee's name
+  - Names must be of type str
+  - Names length must be greater or equal to 3 characters
+  - Should *not be able* to change after the coffee is instantiated
+  - hint: hasattr()
+
+#### Order
+
+- Order __init__(self, customer, coffee, price)
+  - Order is initialized with a Customer instance, a Coffee instance, and a
+    price
+- Order property price
+  - Returns the price for the order
+  - Prices must be of type float
+  - Price must be a number between 1.0 and 10.0, inclusive
+  - Should *not be able* to change after the order is instantiated
+  - hint: hasattr()
+
+
+## Installation
+You use git clone to be able to download the documents in the GitHub
+
+## Installation Requirements
+Git
+
+### Installation instruction
+
+Git clone https://github.com/Salyviah/Coffee-Shop.git
+
+
+
+# Live Link
+[Git](gh-pages link)
+
+## Technologies used
+Python
+
+## Support and contact details
+github.com/salyviah
+
+### License
+The content of this site is licensed under the MIT license
+Copyright (c) 2018.
